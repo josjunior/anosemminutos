@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Anos em Minutos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+  <header>
+    <h1>Anos em minutos</h1>
+    <h2>Saiba quantos minutos tem determinada quantidade de anos</h2>
+    <form>
+      <fieldset>
+        <label for="years" class="y-t">Número de anos:</label>
+        <input type="number" id="years" name="years" placeholder="Digite a quantidade de anos">
+        <br>
+        <label for="totalMinutes" class="m-t">Em Minutos:<span id="totalMinutes">0</span></label><br><br>
+        <input type="button" value="Converter" class="conv-btn" onclick="numberOfYearsToMinutes()">
+      </fieldset>
+    </form>
+      <script src="scripts/script.js"></script>
+      <noscript>Seu navegador não suporta JavaScript ou ele está desativado.</noscript>
+    </body>
+</html>
