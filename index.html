@@ -10,13 +10,14 @@
   <header>
     <h1>Anos em minutos</h1>
     <h2>Saiba quantos minutos tem determinada quantidade de anos</h2>
+   </header> 
     <form>
       <fieldset>
-        <label for="years" class="y-t">Número de anos:</label>
-        <input type="number" id="years" name="years" placeholder="Digite a quantidade de anos">
+        <label for="years" class="y-t">Informe o número de anos:</label>
+        <input type="number" id="years" name="years">
         <br>
-        <label for="totalMinutes" class="m-t">Em Minutos:<span id="totalMinutes">0</span></label><br><br>
-        <input type="button" value="Converter" class="conv-btn" onclick="numberOfYearsToMinutes()">
+        <label for="totalMinutes" class="m-t">Em Minutos é:<span id="totalMinutes">0</span><span class="txt-mi"> min</span></label><br><br>
+        <input type="button" value="CALCULAR" class="conv-btn" onclick="numberOfYearsToMinutes()">
       </fieldset>
     </form>
       <script src="scripts/script.js"></script>
